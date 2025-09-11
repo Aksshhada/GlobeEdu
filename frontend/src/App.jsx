@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Universities from "./pages/Universities";
 import Dashboard from "./pages/Dashboard";
+import "./index.css";
 
 export default function App() {
   return (
