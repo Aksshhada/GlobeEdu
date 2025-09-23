@@ -15,3 +15,72 @@
 .animate-float {
   animation: float 4s ease-in-out infinite;
 }
+
+
+
+
+
+
+
+/* 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #4f46e5;
+  --primary-foreground: #ffffff;
+  --secondary: #f3f4f6;
+  --background: #ffffff;
+  --muted: #f9fafb;
+  --border: #e5e7eb;
+  --card: #ffffff;
+}
+
+.bg-gradient-primary {
+  background: linear-gradient(90deg, #4f46e5, #6366f1);
+}
+
+.bg-gradient-secondary {
+  background: linear-gradient(90deg, #e0e7ff, #c7d2fe);
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+.text-primary-foreground {
+  color: var(--primary-foreground);
+}
+
+.text-muted-foreground {
+  color: #6b7280;
+}
+
+.bg-card {
+  background-color: var(--card);
+}
+
+.bg-background {
+  background-color: var(--background);
+}
+
+.bg-secondary {
+  background-color: var(--secondary);
+}
+
+.bg-muted {
+  background-color: var(--muted);
+}
+
+.border-border {
+  border-color: var(--border);
+}
+
+.shadow-elegant {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.shadow-glow {
+  box-shadow: 0 0 15px rgba(79, 70, 229, 0.6);
+} */
