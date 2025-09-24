@@ -59,7 +59,7 @@ export default function Home() {
 
 
 
-
+{/* blue one content and no bg image */}
       <div
         className="h-[70vh] bg-[url('/src/assets/bg.jpg')] bg-cover bg-center relative flex items-center justify-center text-white"
       >
@@ -100,8 +100,21 @@ export default function Home() {
         </div>
       </div>
 
+{/* scrolling line marquee */}
+ <div className="w-full h-40 bg-yellow-400 overflow-hidden relative flex items-center">
+        <div className="animate-marquee flex space-x-16">
+          <span className="text-2xl">🎓 Universities</span>
+          <span className="text-2xl">💰 Scholarships</span>
+          <span className="text-2xl">🌍 Global Dreams</span>
+          <span className="text-2xl">🚀 Opportunities</span>
 
-
+          {/* Duplicate for loop effect */}
+          <span className="text-2xl">🎓 Universities</span>
+          <span className="text-2xl">💰 Scholarships</span>
+          <span className="text-2xl">🌍 Global Dreams</span>
+          <span className="text-2xl">🚀 Opportunities</span>
+        </div>
+      </div>
 
 
       {/* Just Animated Image on Right */}
