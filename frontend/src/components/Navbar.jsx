@@ -3,14 +3,14 @@ import React from "react";
 export default function Navbar() {
   return (
     <nav className="bg-gray-900 shadow-md">
-      <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
-
-        {/* Left: Logo only */}
-        <div className="flex items-center pl-60">
+      {/* left side logo */}
+      <div className="flex items-center justify-between py-3">
+        <div className="ml-[30px]">
+          {" "}
+          {/* arbitrary px value */}
           <img
-            className="h-4 w-auto left-100"
-            style={{ height: "60px" }}
-            src="/src/assets/logo.png" // Replace with your logo
+            className="h-[60px] w-auto"
+            src="/src/assets/logo.png"
             alt="Logo"
           />
         </div>
@@ -40,11 +40,16 @@ export default function Navbar() {
         </div>
 
         {/* Right: Profile */}
-        {/* <div>
-          <button className="h-9 w-9 flex items-center justify-center rounded-full bg-indigo-600 text-white font-bold">
-            AK
-          </button>
-        </div> */}
+
+        <div className="mr-[30px]">
+          {" "}
+          {/* arbitrary px value */}
+          <img
+            className="h-[60px] w-auto"
+            src="/src/assets/logo.png"
+            alt="Logo"
+          />
+        </div>
       </div>
     </nav>
   );
