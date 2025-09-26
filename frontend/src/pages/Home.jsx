@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <div className="w-full">
+    <div className="w-full pt-24">
 
       {/* Background Image Section with Text */}
       <div
-        className="h-[70vh] bg-[url('/src/assets/bg.jpg')] bg-cover bg-center relative flex items-center justify-center text-white"
+        className="h-[70vh] bg-[url('/src/assets/bg.jpg')] bg-cover bg-center relative flex items-center justify-center text-white pt-80"
       >
         {/* Dark Overlay */}
         <div className="absolute inset-0 bg-black/50"></div>
@@ -45,8 +45,8 @@ export default function Home() {
         </div>
       </div>
 
-{/* Left Side Text */}
-        <div className="flex flex-col text-center md:text-left max-w-xl">
+{/* Text */}
+        <div className="flex flex-col text-center md:text-left max-w-xl mt-[50px] mb-[60px]">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Study Smarter, Dream Bigger OR Why Choose Us?
           </h2>
