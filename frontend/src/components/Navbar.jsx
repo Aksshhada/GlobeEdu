@@ -5,7 +5,7 @@ export default function Navbar() {
     <nav className="bg-gray-900 shadow-md">
       {/* left side logo */}
       <div className="flex items-center justify-between py-3">
-        <div className="ml-[30px] mb-[40px] mt-[20px]">
+        <div className="ml-[30px] mb-[40px] mt-[2px]">
           {" "}
           {/* arbitrary px value */}
           <img
@@ -41,7 +41,7 @@ export default function Navbar() {
 
         {/* Right: Profile */}
 
-        <div className="mr-[30px] mb-[40px] mt-[20px]">
+        <div className="mr-[30px] mb-[40px] mt-[2px]">
           {" "}
           {/* arbitrary px value */}
           <img

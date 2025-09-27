@@ -46,7 +46,7 @@ export default function Home() {
       </div>
 
 {/* Text */}
-        <div className="flex flex-col text-center md:text-left max-w-xl mt-[50px] mb-[60px]">
+        <div className="flex flex-col text-center md:text-left max-w-xl mt-[50px] mb-[70px]">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Study Smarter, Dream Bigger OR Why Choose Us?
           </h2>
@@ -54,6 +54,45 @@ export default function Home() {
             We provide everything you need to succeed with our simple yet powerful platform.
           </p>
         </div>
+
+
+
+
+
+
+
+
+{/* 3 Boxes Section */}
+<div className="mt-10 grid grid-cols-3 gap-8 max-w-6xl mx-auto px-6">
+  {/* Box 1 */}
+  <div className="bg-white text-gray-900 rounded-2xl shadow-lg p-6 text-center">
+    <h3 className="text-xl font-bold mb-2">🌍 Global Network</h3>
+    <p className="text-gray-600">
+      Connect with top universities and opportunities around the world.
+    </p>
+  </div>
+
+  {/* Box 2 */}
+  <div className="bg-white text-gray-900 rounded-2xl shadow-lg p-6 text-center">
+    <h3 className="text-xl font-bold mb-2">💰 Scholarships</h3>
+    <p className="text-gray-600">
+      Explore scholarships designed to support your study abroad dreams.
+    </p>
+  </div>
+
+  {/* Box 3 */}
+  <div className="bg-white text-gray-900 rounded-2xl shadow-lg p-6 text-center">
+    <h3 className="text-xl font-bold mb-2">🚀 Career Growth</h3>
+    <p className="text-gray-600">
+      Unlock global opportunities and take your career to the next level.
+    </p>
+  </div>
+</div>
+
+
+
+
+
 
 
 
