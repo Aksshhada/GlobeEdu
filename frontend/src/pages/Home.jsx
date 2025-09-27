@@ -64,23 +64,24 @@ export default function Home() {
 
 {/* 3 Boxes Section */}
 <div className="mt-10 grid grid-cols-3 gap-8 max-w-6xl mx-auto px-6">
-  {/* Box 1 */}
-  <div className="bg-white text-gray-900 rounded-2xl shadow-lg p-6 text-center">
+  
+  
+  <div className="bg-[#FFDAB9] text-gray-900 rounded-2xl shadow-lg p-6 text-center m-6">
     <h3 className="text-xl font-bold mb-2">🌍 Global Network</h3>
     <p className="text-gray-600">
       Connect with top universities and opportunities around the world.
     </p>
   </div>
 
-  {/* Box 2 */}
-  <div className="bg-white text-gray-900 rounded-2xl shadow-lg p-6 text-center">
+  
+  <div className="bg-[#FFDAB9] text-gray-900 rounded-2xl shadow-lg p-6 text-center">
     <h3 className="text-xl font-bold mb-2">💰 Scholarships</h3>
     <p className="text-gray-600">
       Explore scholarships designed to support your study abroad dreams.
     </p>
   </div>
 
-  {/* Box 3 */}
+  
   <div className="bg-white text-gray-900 rounded-2xl shadow-lg p-6 text-center">
     <h3 className="text-xl font-bold mb-2">🚀 Career Growth</h3>
     <p className="text-gray-600">
@@ -89,6 +90,41 @@ export default function Home() {
   </div>
 </div>
 
+
+
+
+
+
+
+
+
+
+{/* 3 Boxes Section */}
+{/* <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto px-6">
+
+  <div className="bg-[#FFDAB9] text-gray-900 rounded-2xl shadow-lg p-6 text-center">
+    <h3 className="text-xl font-bold mb-2">🌍 Global Network</h3>
+    <p className="text-gray-700">
+      Connect with top universities and opportunities around the world.
+    </p>
+  </div>
+
+  <div className="bg-[#FFDAB9] text-gray-900 rounded-2xl shadow-lg p-6 text-center">
+    <h3 className="text-xl font-bold mb-2">💰 Scholarships</h3>
+    <p className="text-gray-700">
+      Explore scholarships designed to support your study abroad dreams.
+    </p>
+  </div>
+
+  
+  <div className="bg-[#FFDAB9] text-gray-900 rounded-2xl shadow-lg p-6 text-center">
+    <h3 className="text-xl font-bold mb-2">🚀 Career Growth</h3>
+    <p className="text-gray-700">
+      Unlock global opportunities and take your career to the next level.
+    </p>
+  </div>
+</div>
+ */}
 
 
 
