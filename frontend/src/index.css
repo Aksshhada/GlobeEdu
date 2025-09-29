@@ -1,5 +1,6 @@
-@tailwind base;
-@tailwind components;
+@import "tailwindcss";
+/* @tailwind base; */
+/* @tailwind components; */
 @tailwind utilities;
 
 
@@ -30,6 +31,8 @@
 .animate-marquee:hover {
   animation-play-state: paused;
 }
+
+
 
 
 
