@@ -6,7 +6,7 @@ export default function Home() {
 
       {/* Background Image Section with Text */}
       <div
-        className="h-[70vh] bg-[url('/src/assets/bg.jpg')] bg-cover bg-center relative flex items-center justify-center text-white pt-80"
+        className="h-[100vh] bg-[url('/src/assets/bg.jpg')] bg-cover bg-center relative flex items-center justify-center text-white"
       >
         {/* Dark Overlay */}
         <div className="absolute inset-0 bg-black/50"></div>
@@ -45,99 +45,41 @@ export default function Home() {
         </div>
       </div>
 
-{/* Text */}
-        <div className="flex flex-col text-center md:text-left max-w-xl mt-[50px] mb-[70px]">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Study Smarter, Dream Bigger OR Why Choose Us?
-          </h2>
-          <p className="text-lg md:text-xl text-gray-200">
-            We provide everything you need to succeed with our simple yet powerful platform.
-          </p>
-        </div>
-
-
-
-
-
-
-
 
 {/* 3 Boxes Section */}
-<div className="mt-10 grid grid-cols-3 gap-8 max-w-6xl mx-auto px-6">
+<div className="mt-10 grid grid-cols-3 gap-15 max-w-6xl mx-auto px-4">
   
   
-  <div className="bg-[#FFDAB9] text-gray-900 rounded-2xl shadow-lg p-6 text-center m-6">
-    <h3 className="text-xl font-bold mb-2">🌍 Global Network</h3>
+  <div className="bg-[#FFDAB9] text-gray-900 rounded-2xl shadow-lg p-6 text-center mb-10">
+    <h3 className="text-xl font-bold mb-4">Global Network</h3>
     <p className="text-gray-600">
       Connect with top universities and opportunities around the world.
     </p>
   </div>
 
   
-  <div className="bg-[#FFDAB9] text-gray-900 rounded-2xl shadow-lg p-6 text-center">
-    <h3 className="text-xl font-bold mb-2">💰 Scholarships</h3>
+  <div className="bg-[#FFDAB9] text-gray-900 rounded-2xl shadow-lg p-6 text-center mb-10">
+    <h3 className="text-xl font-bold mb-4">Scholarships</h3>
     <p className="text-gray-600">
       Explore scholarships designed to support your study abroad dreams.
     </p>
   </div>
 
   
-  <div className="bg-white text-gray-900 rounded-2xl shadow-lg p-6 text-center">
-    <h3 className="text-xl font-bold mb-2">🚀 Career Growth</h3>
+  <div className="bg-[#FFDAB9] text-gray-900 rounded-2xl shadow-lg p-6 text-center mb-10">
+    <h3 className="text-xl font-bold mb-4">Career Growth</h3>
     <p className="text-gray-600">
       Unlock global opportunities and take your career to the next level.
     </p>
   </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-{/* 3 Boxes Section */}
-{/* <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto px-6">
-
-  <div className="bg-[#FFDAB9] text-gray-900 rounded-2xl shadow-lg p-6 text-center">
-    <h3 className="text-xl font-bold mb-2">🌍 Global Network</h3>
-    <p className="text-gray-700">
-      Connect with top universities and opportunities around the world.
-    </p>
-  </div>
-
-  <div className="bg-[#FFDAB9] text-gray-900 rounded-2xl shadow-lg p-6 text-center">
-    <h3 className="text-xl font-bold mb-2">💰 Scholarships</h3>
-    <p className="text-gray-700">
-      Explore scholarships designed to support your study abroad dreams.
-    </p>
-  </div>
-
-  
-  <div className="bg-[#FFDAB9] text-gray-900 rounded-2xl shadow-lg p-6 text-center">
-    <h3 className="text-xl font-bold mb-2">🚀 Career Growth</h3>
-    <p className="text-gray-700">
-      Unlock global opportunities and take your career to the next level.
-    </p>
-  </div>
-</div>
- */}
-
-
-
-
-
 
 
 
 
 {/* blue one content and no bg image */}
       <div
-        className="h-[70vh] bg-[url('/src/assets/bg.jpg')] bg-cover bg-center relative flex items-center justify-center text-white"
+        className="h-[70vh] bg-[#f967eb] bg-cover bg-center relative flex items-center justify-center text-white"
       >
         {/* Dark Overlay */}
         <div className="absolute inset-0 bg-black/50"></div>
@@ -177,7 +119,7 @@ export default function Home() {
       </div>
 
 {/* scrolling line marquee */}
- <div className="w-full h-40 bg-yellow-400 overflow-hidden relative flex items-center">
+ <div className="w-full h-40 bg-[#FFDAB9] overflow-hidden relative flex items-center">
         <div className="animate-marquee flex space-x-16">
           <span className="text-2xl">🎓 Universities</span>
           <span className="text-2xl">💰 Scholarships</span>
@@ -191,6 +133,27 @@ export default function Home() {
           <span className="text-2xl">🚀 Opportunities</span>
         </div>
       </div>
+
+
+
+
+
+
+
+{/* left text */}
+ <div className="flex flex-col text-center md:text-left max-w-xl mt-[50px] mb-[70px]">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            Study Smarter, Dream Bigger OR Why Choose Us?
+          </h2>
+          <p className="text-lg md:text-xl text-gray-200">
+            We provide everything you need to succeed with our simple yet powerful platform.
+          </p>
+        </div>
+
+
+
+
+
 
 
       {/* Just Animated Image on Right */}
