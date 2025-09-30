@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <div className="w-full pt-24">
+    <div className="w-full">
 
       {/* Background Image Section with Text */}
       <div
@@ -77,9 +77,9 @@ export default function Home() {
 
 
 
-{/* blue one content and no bg image */}
+{/* blue one content and no bg image [#f967eb]*/}
       <div
-        className="h-[70vh] bg-[#f967eb] bg-cover bg-center relative flex items-center justify-center text-white"
+        className="h-[70vh] bg-[#822778] bg-cover bg-center relative flex items-center justify-center text-white"
       >
         {/* Dark Overlay */}
         <div className="absolute inset-0 bg-black/50"></div>
