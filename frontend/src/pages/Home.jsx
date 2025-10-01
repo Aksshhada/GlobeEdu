@@ -77,6 +77,7 @@ export default function Home() {
 
 
 
+
 {/* blue one content and no bg image [#f967eb]*/}
       <div
         className="h-[70vh] bg-[#822778] bg-cover bg-center relative flex items-center justify-center text-white"
