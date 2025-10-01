@@ -2,56 +2,51 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <nav className="bg-gray-900 shadow-md">
-      {/* left side logo */}
-      <div className="flex items-center justify-between py-3">
-        <div className="ml-[30px] mb-[40px] mt-[2px]">
-          {" "}
-          {/* arbitrary px value */}
-          <img
-            className="h-[60px] w-auto"
-            src="/src/assets/logo.png"
-            alt="Logo"
-          />
-        </div>
+    <nav className="bg-[#ecfcff] shadow-md">
+      <div className="max-w-7xl mx-auto px-6">
+        <div className="flex items-center justify-between h-16">
+          
+          {/* Left Logo */}
+          <div className="flex-shrink-0">
+            <img
+              className="h-12 w-auto"
+              src="/src/assets/logo.png"
+              alt="Logo"
+            />
+          </div>
 
-        {/* Center: Nav Links */}
-        <div className="flex-1 flex justify-center">
-          <div className="flex items-center" style={{ columnGap: "3rem" }}>
+          {/* Center Nav Links */}
+          <div className="hidden md:flex space-x-12">
             <a
               href="#"
-              className="text-gray-300 font-medium hover:text-white no-underline"
+              className="text-[#3d36fa] font-medium hover:text-[#000000] transition-colors"
             >
               Events
             </a>
             <a
               href="#"
-              className="text-gray-300 font-medium hover:text-white no-underline"
+              className="text-[#3d36fa] font-medium hover:text-[#000000] transition-colors"
             >
               Packs
             </a>
             <a
               href="#"
-              className="text-gray-300 font-medium hover:text-white no-underline"
+              className="text-[#3d36fa] font-medium hover:text-[#000000] transition-colors"
             >
               Showcase
             </a>
           </div>
-        </div>
 
-        {/* Right: Profile */}
-
-        <div className="mr-[30px] mb-[40px] mt-[2px]">
-          {" "}
-          {/* arbitrary px value */}
-          <img
-            className="h-[60px] w-auto"
-            src="/src/assets/logo.png"
-            alt="Logo"
-          />
+          {/* Right Profile/Logo */}
+          <div className="flex-shrink-0">
+            <img
+              className="h-12 w-auto rounded-full"
+              src="/src/assets/logo.png"
+              alt="Profile"
+            />
+          </div>
         </div>
       </div>
     </nav>
   );
 }
-
