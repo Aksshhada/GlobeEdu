@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <nav className="bg-[#ecfcff] shadow-md">
-      <div className="max-w-7xl mx-auto px-6">
+    <nav className="absolute top-0 left-0 w-full z-20 bg-transparent">
+      <div className="max-w-7xl mx-auto px-1 mt-3">
         <div className="flex items-center justify-between h-16">
           
           {/* Left Logo */}
