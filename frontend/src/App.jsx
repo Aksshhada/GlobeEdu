@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Universities from "./pages/Universities";
 import Dashboard from "./pages/Dashboard";
 import "./index.css";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/universities" element={<Universities />} />
         <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

@@ -43,22 +43,22 @@ export default function Home() {
       </div>
 
       {/* 3 Boxes Section */}
-      <div className="mt-10 grid grid-cols-3 gap-15 max-w-6xl mx-auto px-4">
-        <div className="bg-[#FFDAB9] text-gray-900 rounded-2xl shadow-lg p-6 text-center mb-10">
+      <div className="mt-30 grid grid-cols-3 gap-15 max-w-6xl mx-auto px-4 mb-30">
+        <div className="bg-[#FFDAB9] text-gray-900 rounded-2xl shadow-lg p-6 text-center">
           <h3 className="text-xl font-bold mb-4">Global Network</h3>
           <p className="text-gray-600">
             Connect with top universities and opportunities around the world.
           </p>
         </div>
 
-        <div className="bg-[#FFDAB9] text-gray-900 rounded-2xl shadow-lg p-6 text-center mb-10">
+        <div className="bg-[#FFDAB9] text-gray-900 rounded-2xl shadow-lg p-6 text-center">
           <h3 className="text-xl font-bold mb-4">Scholarships</h3>
           <p className="text-gray-600">
             Explore scholarships designed to support your study abroad dreams.
           </p>
         </div>
 
-        <div className="bg-[#FFDAB9] text-gray-900 rounded-2xl shadow-lg p-6 text-center mb-10">
+        <div className="bg-[#FFDAB9] text-gray-900 rounded-2xl shadow-lg p-6 text-center">
           <h3 className="text-xl font-bold mb-4">Career Growth</h3>
           <p className="text-gray-600">
             Unlock global opportunities and take your career to the next level.
