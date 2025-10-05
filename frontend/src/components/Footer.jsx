@@ -10,7 +10,7 @@ export default function Footer() {
         <div>
           <h2 className="text-2xl font-bold text-white mb-3">YourLogo</h2>
           <p className="text-sm leading-6">
-            Empowering students and learners with resources, knowledge, and opportunities to grow and succeed globally. 🌍
+            Empowering students and learners with resources, knowledge, and opportunities to grow and succeed globally.
           </p>
         </div>
 
