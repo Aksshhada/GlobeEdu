@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="w-full">
       {/* Background Image Section with Text */}
-      <div className="h-[100vh] bg-[url('/src/assets/bg.jpg')] bg-cover bg-center relative flex items-center justify-center text-white">
+      <div className="h-[100vh] bg-[url('/src/assets/hero-students.jpg')] bg-cover bg-center relative flex items-center justify-center text-white">
         {/* Dark Overlay */}
         <div className="absolute inset-0 bg-black/50"></div>
 

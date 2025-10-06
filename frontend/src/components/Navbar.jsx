@@ -19,19 +19,19 @@ export default function Navbar() {
           <div className="hidden md:flex space-x-12">
             <a
               href="#"
-              className="text-[#3d36fa] font-medium hover:text-[#000000] transition-colors"
+              className="text-[#000000] font-medium hover:text-[#000000] transition-colors"
             >
               Events
             </a>
             <a
               href="#"
-              className="text-[#3d36fa] font-medium hover:text-[#000000] transition-colors"
+              className="text-[#000000] font-medium hover:text-[#000000] transition-colors"
             >
               Packs
             </a>
             <a
               href="#"
-              className="text-[#3d36fa] font-medium hover:text-[#000000] transition-colors"
+              className="text-[#000000] font-medium hover:text-[#000000] transition-colors"
             >
               Showcase
             </a>
