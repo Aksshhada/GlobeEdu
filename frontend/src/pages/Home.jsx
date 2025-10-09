@@ -97,6 +97,7 @@ export default function Home() {
 
 
       {/*  OG 3 Boxes Section */}
+      
       {/* <div className="mt-30 grid grid-cols-3 gap-15 max-w-6xl mx-auto px-4 mb-30">
         <div className="bg-[#FFDAB9] text-gray-900 rounded-2xl shadow-lg p-6 text-center">
           <h3 className="text-xl font-bold mb-4">Global Network</h3>
