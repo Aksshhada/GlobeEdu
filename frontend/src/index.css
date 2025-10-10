@@ -7,7 +7,7 @@
 
 
 /* Custom animation for floating effect */
-@keyframes float {
+/* @keyframes float {
   0% { transform: translateY(0px); }
   50% { transform: translateY(-15px); }
   100% { transform: translateY(0px); }
@@ -15,10 +15,10 @@
 
 .animate-float {
   animation: float 4s ease-in-out infinite;
-}
+} */
 
 /* marquee line */
-@keyframes marquee {
+/* @keyframes marquee {
   0% { transform: translateX(100%); }
   100% { transform: translateX(-100%); }
 }
@@ -31,4 +31,84 @@
 .animate-marquee:hover {
   animation-play-state: paused;
 }
+ */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.animate-marquee {
+  animation: marquee 22s linear infinite;
+  white-space: nowrap;
+}
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+.animate-fadeIn {
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-slideInLeft {
+  animation: slideInLeft 1.5s ease-in-out forwards;
+}
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+
+
+@keyframes bounceSlow {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-bounce-slow {
+  animation: bounceSlow 2s ease-in-out infinite;
+}
