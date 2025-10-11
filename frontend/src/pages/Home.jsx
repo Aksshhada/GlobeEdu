@@ -236,6 +236,7 @@
 
 
 
+
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 
@@ -432,7 +433,6 @@ export default function Home() {
 
 
 
-
 {/* 🌈 Floating Always-Visible Cards */}
 <div className="fixed bottom-10 right-10 flex flex-col gap-4 z-50">
   {/* Card 1 */}
@@ -451,9 +451,6 @@ export default function Home() {
     </p>
   </div>
 </div>
-
-
-
 
 
 
